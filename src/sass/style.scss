@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixins';
+@import 'utils';
+@import 'base';
+@import 'grid';
+
+@import 'header';
+@import 'fetch_area';
+@import 'button';
+@import 'card';
+@import 'download-result';
+
+.loader {
+	padding: 3.5rem 0;
+}

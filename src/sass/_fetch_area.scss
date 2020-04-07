@@ -1,0 +1,43 @@
+.fetch-area {
+	padding: 4rem 0;
+
+	&__title {
+		font-size: 3.5rem;
+		text-align: center;
+		color: $color-dark-grey;
+		font-weight: 400;
+	}
+}
+
+.search {
+	&__input {
+		width: 100%;
+		padding-right: 105px;
+		font-size: 1.8rem;
+		border: none;
+	}
+}
+
+.red-box {
+	margin-top: 2.5rem;
+	width: 100%;
+	border: 3px solid $color-primary;
+	border-radius: 1.5rem;
+	font-size: 1.6rem;
+	padding: 2rem;
+	position: relative;
+	.button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 0;
+	}
+
+	&__text {
+		display: flex;
+		align-items: center;
+	}
+}

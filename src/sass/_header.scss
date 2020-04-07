@@ -1,0 +1,11 @@
+.header {
+	width: 80rem;
+	margin: 1.5rem auto;
+
+	&__logo {
+		font-size: 4.2rem;
+		a {
+			color: $color-dark-grey;
+		}
+	}
+}
