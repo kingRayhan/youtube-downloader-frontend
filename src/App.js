@@ -13,7 +13,9 @@ const App = () => {
 	const fetchVideo = async (urlOrId) => {
 		setLoading(true)
 		try {
-			let { data } = await Axios.get(process.env.API_URL + '/?video=' + urlOrId)
+			let { data } = await Axios.get(
+				'https://youtube-to-mp3-downloader.herokuapp.com//?video=' + urlOrId
+			)
 
 			if (data !== null) {
 				setLoading(false)
