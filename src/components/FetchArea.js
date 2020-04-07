@@ -6,7 +6,7 @@ const FetchArea = ({ fetchVideo }) => {
 	return (
 		<div className="fetch-area text-center">
 			<h1 className="fetch-area__title">
-				Download Video and Audio from
+				Download Audio from
 				<span className="text-color-primary">YouTube</span>
 			</h1>
 			<div className="search">
