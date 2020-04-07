@@ -14,7 +14,7 @@ const App = () => {
 		setLoading(true)
 		try {
 			let { data } = await Axios.get(
-				'https://youtube-to-mp3-downloader.herokuapp.com//?video=' + urlOrId
+				'https://youtube-to-mp3-downloader.herokuapp.com/?video=' + urlOrId
 			)
 
 			if (data !== null) {
