@@ -14,7 +14,7 @@ const FetchArea = ({ fetchVideo }) => {
 					<input
 						type="text"
 						className="search__input"
-						placeholder="Paste your video url here..."
+						placeholder="Paste your video url or id here..."
 						value={url}
 						onChange={(e) => setUrl(e.target.value)}
 					/>
